@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-event-flow
+## @arthanasti/legacy-plugin-chart-event-flow
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-event-flow.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-event-flow)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-event-flow&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-event-flow)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import EventFlowChartPlugin from '@superset-ui/legacy-plugin-chart-event-flow';
+import EventFlowChartPlugin from '@arthanasti/legacy-plugin-chart-event-flow';
 
 new EventFlowChartPlugin().configure({ key: 'event-flow' }).register();
 ```
