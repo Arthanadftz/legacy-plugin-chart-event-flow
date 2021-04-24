@@ -18,7 +18,7 @@
  */
 import React from 'react';
 import { t, validateNonEmpty } from '@superset-ui/core';
-import { formatSelectOptionsForRange, ColumnOption, columnChoices } from '@superset-ui/chart-controls';
+import { formatSelectOptionsForRange, ColumnOption, columnChoices } from '@arthanasti/chart-controls';
 const config = {
   controlPanelSections: [{
     label: t('Event definition'),

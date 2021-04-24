@@ -1,6 +1,6 @@
 {
   "name": "@arthanasti/legacy-plugin-chart-event-flow",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Superset Legacy Chart - Event Flow",
   "sideEffects": [
     "*.css"
